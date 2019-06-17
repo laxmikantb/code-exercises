@@ -38,6 +38,11 @@ public class MaxAvgMark_FromStudents {
 				.collect(Collectors.groupingBy(Student::getName, Collectors.counting()));
 
 		System.out.println(counting);
+		
+		Map<String, Integer> totalScore = students.stream()
+				.collect(Collectors.groupingBy(Student::getName, Collectors.summingInt(student -> student.getMark())));
+		System.out.println(totalScore);
+
 
 		Map<String, Double> avg = students.stream()
 				.collect(Collectors.groupingBy(Student::getName, Collectors.averagingInt(Student::getMark)));

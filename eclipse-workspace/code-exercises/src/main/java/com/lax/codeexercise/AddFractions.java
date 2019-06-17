@@ -5,8 +5,8 @@ package com.lax.codeexercise;
 public class AddFractions {
 
 	public static void main(String[] args) {
-		System.out.println(gcd(500, 1500));
-		int num1 = 1, den1 = 500, num2 = 2, den2 = 1500;
+		System.out.println(gcd(499, 1500));
+		int num1 = 1, den1 = 499, num2 = 2, den2 = 1500;
 		System.out.print(num1 + "/" + den1 + " + " + num2 + "/" + den2 + " is equal to ");
 		addFractions(num1, den1, num2, den2);
 
@@ -27,7 +27,8 @@ public class AddFractions {
 
 		// Changing the fractions to have same denominator
 		// Numerator of the final fraction obtained
-		int num3 = num1 * (den3 / den1) + num2 * (den2 / den3);
+		int num3 = num1 * (den3 / den1);
+		num3 += num2 * (den3 / den2);
 
 		// Calling function to convert final fraction
 		// into it's simplest form
