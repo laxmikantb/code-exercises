@@ -1,4 +1,4 @@
-package com.lax.codeexercise.thread;
+package com.lax.codeexercise;
 
 /*
  * mplementation where multiple threads print alternate values of sequence

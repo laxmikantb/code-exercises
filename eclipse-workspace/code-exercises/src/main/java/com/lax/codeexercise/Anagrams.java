@@ -1,4 +1,4 @@
-package com.lax.codeexercise.ice.anagram;
+package com.lax.codeexercise;
 
 import java.io.StringReader;
 import java.util.ArrayList;

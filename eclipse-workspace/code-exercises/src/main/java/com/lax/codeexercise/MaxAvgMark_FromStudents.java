@@ -1,4 +1,4 @@
-package com.lax.codeexercise.java8;
+package com.lax.codeexercise;
 
 import java.math.BigDecimal;
 import java.util.Arrays;

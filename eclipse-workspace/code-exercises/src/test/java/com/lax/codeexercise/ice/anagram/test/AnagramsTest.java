@@ -13,7 +13,7 @@ import java.util.stream.Stream;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.lax.codeexercise.ice.anagram.Anagrams;
+import com.lax.codeexercise.Anagrams;
 
 public class AnagramsTest {
 

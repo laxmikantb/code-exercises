@@ -1,4 +1,4 @@
-package com.lax.codeexercise.recursion;
+package com.lax.codeexercise;
 
 /*
  * The nth term in the series is obtained by adding n to the previous term. Thus, the second term 

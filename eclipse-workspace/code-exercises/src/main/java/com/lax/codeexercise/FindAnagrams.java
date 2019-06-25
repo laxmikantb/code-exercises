@@ -1,4 +1,4 @@
-package com.lax.codeexercise.java8;
+package com.lax.codeexercise;
 
 import java.io.BufferedReader;
 import java.io.Reader;

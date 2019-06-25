@@ -1,4 +1,4 @@
-package com.lax.codeexercise.recursion;
+package com.lax.codeexercise;
 
 import java.io.BufferedReader;
 import java.io.IOException;

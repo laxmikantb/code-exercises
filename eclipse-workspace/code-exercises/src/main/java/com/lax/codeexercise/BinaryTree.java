@@ -1,4 +1,4 @@
-package com.lax.codeexercise.tree;
+package com.lax.codeexercise;
 
 public class BinaryTree {
 

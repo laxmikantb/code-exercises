@@ -1,4 +1,4 @@
-package com.lax.codeexercise.sort;
+package com.lax.codeexercise;
 
 public class QuickSort {
 

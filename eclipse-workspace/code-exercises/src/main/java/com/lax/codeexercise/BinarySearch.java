@@ -1,4 +1,4 @@
-package com.lax.codeexercise.recursion;
+package com.lax.codeexercise;
 
 /*
  * binary searches in ordered arrays

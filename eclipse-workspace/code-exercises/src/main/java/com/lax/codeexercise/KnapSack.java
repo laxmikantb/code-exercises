@@ -1,4 +1,4 @@
-package com.lax.codeexercise.DP;
+package com.lax.codeexercise;
 
 /*
  * 0/1 Knapsack Problem - Given items of certain weights/values and maximum allowed weight

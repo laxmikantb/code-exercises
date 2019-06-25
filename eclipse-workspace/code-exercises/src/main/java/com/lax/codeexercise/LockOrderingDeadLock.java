@@ -1,4 +1,4 @@
-package com.lax.codeexercise.thread;
+package com.lax.codeexercise;
 
 public class LockOrderingDeadLock {
 	private final Object left = new Object();
